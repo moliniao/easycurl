@@ -15,4 +15,9 @@
             "name": "moliniao"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "EasyCurl\\": "src/EasyCurl/"
+        }
+    }
 }
