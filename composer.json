@@ -3,7 +3,6 @@
 	"description": "most easy curl class of the PHP cURL extension. ",
 	"homepage": "https://github.com/moliniao/easycurl",
 	"license": "Unlicense",
-	"minimum-stability": "stable",
 	"require":{
 		"php-curl-class/php-curl-class":"~4.0"
 	},
