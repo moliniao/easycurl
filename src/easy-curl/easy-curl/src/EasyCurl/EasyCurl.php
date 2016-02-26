@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands\easycurl\src;
+namespace EasyCurl;
 use \Curl\Curl;
 class EasyCurl 
 {
@@ -26,7 +26,7 @@ class EasyCurl
         }
         $config["method"] = strtolower($config["method"]);
         //set header 
-        if( is_array( $config["header"] ) ){
+        if( isset($config["header"]) && is_array( $config["header"] ) ){
             foreach ($config["header"] as $key => $value) {
                  $this->curl->setHeader($key,$value);
                  //解压gzip

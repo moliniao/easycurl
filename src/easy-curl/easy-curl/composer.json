@@ -1,0 +1,23 @@
+{
+	"name": "easy-curl/easy-curl",
+	"description": "most easy curl class of the PHP cURL extension. ",
+	"homepage": "https://github.com/moliniao/easycurl",
+	"license": "Unlicense",
+	"require":{
+		"php-curl-class/php-curl-class":"~4.0"
+	},
+	"keywords": [
+        "php", "curl", "class", "api", "client", "framework", "http client",
+        "http", "json", "requests", "rest", "restful", "web service", "xml"
+    ],
+    "authors": [
+        {
+            "name": "moliniao"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EasyCurl\\": "src/EasyCurl/"
+        }
+    }
+}
